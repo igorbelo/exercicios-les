@@ -52,5 +52,5 @@ class CalculadoraView:
         self.input = input
         self.controller = CalculadoraController(self)
 
-    def mostrar_resultado(self):
-        print self.controller.calcular()
+    def calcular(self):
+        return self.controller.calcular()
